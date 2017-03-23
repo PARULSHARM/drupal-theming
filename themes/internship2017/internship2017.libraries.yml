@@ -1,0 +1,11 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/main.css: { weight: 100}
+      css/style.css: {}
+    theme:
+      core/theme/classy/css/components/menu.css: false
+
+  js:
+      js/main.js: {}

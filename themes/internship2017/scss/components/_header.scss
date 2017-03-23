@@ -1,0 +1,22 @@
+.header li a{
+  text-decoration:none;
+  color:black;
+  margin-left:143px;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+.header li{
+  display: inline;
+  text-transform: uppercase;
+}
+.image-style-banner{
+  width:1440px;
+  height:512px;
+}
+
+ul.menu a.is-active{
+  color:red;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  padding-bottom: 12px;
+}

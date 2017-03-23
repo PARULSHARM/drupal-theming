@@ -1,0 +1,19 @@
+name: internship2017
+type: theme
+base theme: classy
+description: 'A flexible theme for the internship project'
+core: 8.x
+libraries:
+  - internship2017/global-styling
+
+regions:
+  header: Header
+  header_bottom: 'Header bottom'
+  content: Content
+  content_bottom: 'Content bottom'
+  footer_top: 'Footer top'
+  footer: Footer
+
+# Information added by Drupal.org packaging script on 2017-02-01
+stylesheets-remove:
+ - 'core/themes/classy/css/components/menu.css'
