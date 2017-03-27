@@ -1,15 +1,23 @@
-.header li a{
+.header li{
+  a{
   text-decoration:none;
   color:black;
   margin-left:143px;
-  padding-top:40px;
+  padding-top:150px;
   padding-bottom:40px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    margin-left:-50px;
+  }
 }
 .header li{
   display: inline;
   text-transform: uppercase;
 }
 .image-style-banner{
+  @media screen and (min-width: 320px){
+    width:100%;
+  }
   width:1440px;
   height:512px;
 }
@@ -20,3 +28,4 @@ ul.menu a.is-active{
   border-bottom-style: solid;
   padding-bottom: 12px;
 }
+

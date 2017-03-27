@@ -33,4 +33,12 @@
   p{
     color:#0074bd;
   }
+
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    div{
+    display: inline-block;
+    padding-left:0px;
+    }
+  }
 }
+

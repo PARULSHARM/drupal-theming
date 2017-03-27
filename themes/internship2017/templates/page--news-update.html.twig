@@ -1,0 +1,35 @@
+<div id="page-wrapper">
+   <div id="page">
+      <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t }}">
+         <div class="section layout-container clearfix">
+            <div class="wrapper">
+               {{ page.header_top }}
+               {{ page.header }}
+               {{ page.header_bottom }}
+            </div>
+         </div>
+      </header>
+      <section class="section">
+         <a id="main-content" tabindex="-1"></a>
+         {{ page.content }}
+      </section>
+   </div>
+</div>
+{% if page.content_bottom %}
+<div class="featured-bottom">
+   <aside class="layout-container clearfix" role="complementary">
+      {{ page.content_bottom }}
+   </aside>
+</div>
+{% endif %}
+<footer class="site-footer">
+   <div class="layout-container">
+      {% if page.footer_top or page.footer %}
+        <div class="site-footer__top clearfix">
+           {{ page.footer_top }}
+           {{ page.footer }}
+        </div>
+      {% endif %}
+   </div>
+</footer>
+

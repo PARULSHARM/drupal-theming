@@ -1,0 +1,20 @@
+$mobile : screen;
+$tablet : min-width 768px;
+$desktop : min-width 1024px;
+$widedesktop : min-width 1400px;
+@include breakpoint($mobile){
+    // scss for mobile
+    display: inline-block;
+}
+@include breakpoint($tablet){
+    // scss for tablet
+    display: inline-block;
+}
+@include breakpoint($desktop){
+    // scss for desktop
+    display: inline-block;
+}
+@include breakpoint($widedesktop){
+    // scss for widedesktop
+    display: inline-block;
+}

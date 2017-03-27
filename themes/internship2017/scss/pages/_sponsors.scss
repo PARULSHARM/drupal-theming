@@ -28,6 +28,14 @@
        padding-left: 130px;
        padding-top:30px;
 
+
+       @media screen and (min-width: 320px) and (max-width: 768px){
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+        padding-top:10px;
+       }
+
        h1 {
            text-transform: uppercase;
            font-size: 20px;
@@ -38,6 +46,21 @@
            padding-top: 50px;
            color: grey;
            padding-right:135px;
+           a{
+              @media screen and (min-width: 320px) and (max-width: 768px){
+                padding-left:135px;
+                padding-top: 0px;
+              }
+           }
        }
+
    }
+
+}
+
+
+.be{
+   @media screen and (min-width: 320px) and (max-width: 768px){
+      margin-left:110px;
+    }
 }
