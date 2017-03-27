@@ -6,14 +6,24 @@
   padding-top:150px;
   padding-bottom:40px;
   }
-  @media screen and (min-width: 320px) and (max-width: 768px){
+  @media screen and (min-width: 320px) and (max-width: 375px){
     margin-left:-50px;
   }
 }
+
+
 .header li{
   display: inline;
   text-transform: uppercase;
 }
+
+.region{
+  .region-header{
+    @media screen and (min-width: 376px) and (max-width: 1440px){
+      height: 800px;
+  }
+}
+
 .image-style-banner{
   @media screen and (min-width: 320px){
     width:100%;
@@ -28,4 +38,4 @@ ul.menu a.is-active{
   border-bottom-style: solid;
   padding-bottom: 12px;
 }
-
+}

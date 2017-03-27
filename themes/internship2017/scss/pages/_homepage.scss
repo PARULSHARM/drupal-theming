@@ -2,7 +2,7 @@
     display: flex;
     width: 70%;
     margin: 0 auto;
-    @media screen and (min-width: 320px) and (max-width: 768px){
+    @media screen and (min-width: 320px) and (max-width: 375px){
       display: flex;
       flex-direction: column;
     }
@@ -109,6 +109,18 @@
     width: 60%;
 }
 
+#keyp2{
+  p{
+    img{
+      @media screen and (min-width: 768px) and (max-width: 1024px){
+        width:300px;
+        height: 565px;
+      }
+    }
+  }
+}
+
+
 #wrap-you {
     float: right;
     width: 40%;
@@ -130,7 +142,7 @@
 #keyp1 {
     margin-left: 182px;
     margin-top: 60px;
-    @media screen and (min-width: 320px) and (max-width: 768px){
+    @media screen and (min-width: 320px) and (max-width: 375px){
       p{
         display: none;
       }
@@ -151,19 +163,25 @@
         flex-direction: row;
         justify-content: center;
         padding: 80px;
-        @media screen and (min-width: 320px) and (max-width: 768px){
-        display: flex;
-        flex-direction: column;
-        padding-left: 20px;
-        padding-right: 20px;
+        @media screen and (min-width: 320px) and (max-width: 375px){
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        @media screen and (min-width: 768px) and (max-width: 1024px){
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+          padding-right: 20px;
         }
         img {
             height: 250px;
             width: 380px;
             padding-right: 50px;
-            @media screen and (min-width: 320px) and (max-width: 768px){
+            @media screen and (min-width: 320px) and (max-width: 375px){
               padding-right: 10px;
-              width: 320px;
+              width: 32s0px;
             }
         }
         h1 {
@@ -233,6 +251,9 @@
   color: white;
   text-decoration:none;
   padding:10px;
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+      margin-left:450px;
+    }
   }
 
 .wrp{
@@ -249,7 +270,7 @@
   button{
     padding:15px;
   }
-  @media screen and (min-width: 320px) and (max-width: 768px){
+  @media screen and (min-width: 320px) and (max-width: 375px){
     height:600px;
     img{
     margin-left:25px;
@@ -265,6 +286,22 @@
     button{
     padding:9px;
     background-color: white;
+   }
   }
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+    img{
+    margin-left:468px;
+    margin-top:150px;
+    overflow: none;
+    }
+    #inf{
+    margin-top:-200px;
+    margin-left: 79px;
+    }
+    button{
+    padding:9px;
+    background-color: white;
+   }
   }
+
 }

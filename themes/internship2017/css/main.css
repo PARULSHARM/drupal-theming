@@ -5,7 +5,7 @@
   padding-top: 150px;
   padding-bottom: 40px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .header li {
     margin-left: -50px;
   }
@@ -16,21 +16,62 @@
   text-transform: uppercase;
 }
 
-.image-style-banner {
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  .region .region-header {
+    height: 800px;
+  }
+}
+.region .image-style-banner {
   width: 1440px;
   height: 512px;
 }
 @media screen and (min-width: 320px) {
-  .image-style-banner {
+  .region .image-style-banner {
     width: 100%;
   }
 }
-
-ul.menu a.is-active {
+.region ul.menu a.is-active {
   color: red;
   border-bottom-width: 4px;
   border-bottom-style: solid;
   padding-bottom: 12px;
+}
+
+#footer {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+}
+#footer #logo-footer {
+  margin-top: -67px;
+}
+#footer #logo-footer img {
+  margin-top: -17px;
+  margin-left: 190px;
+}
+#footer #logo-footer h3 {
+  color: white;
+  margin-top: -55px;
+  margin-left: -440px;
+  font-size: 15px;
+}
+#footer #icon-footer h3 {
+  margin-top: -30px;
+  color: white;
+  margin-left: 800px;
+  font-size: 15px;
+}
+#footer #icon-footer li {
+  list-style-type: none;
+}
+#footer #icon-footer i {
+  color: white;
+  list-style-type: none;
+  margin-left: 600px;
+}
+#footer #icon-footer #uid {
+  margin-left: 550px;
+  margin-top: -35px;
 }
 
 .tickets {
@@ -38,7 +79,7 @@ ul.menu a.is-active {
   width: 70%;
   margin: 0 auto;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .tickets {
     display: flex;
     flex-direction: column;
@@ -133,6 +174,13 @@ ul.menu a.is-active {
   width: 60%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #keyp2 p img {
+    width: 300px;
+    height: 565px;
+  }
+}
+
 #wrap-you {
   float: right;
   width: 40%;
@@ -155,7 +203,7 @@ ul.menu a.is-active {
   margin-left: 182px;
   margin-top: 60px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #keyp1 p {
     display: none;
   }
@@ -174,7 +222,15 @@ ul.menu a.is-active {
   justify-content: center;
   padding: 80px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  #block-events .events-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   #block-events .events-wrapper {
     display: flex;
     flex-direction: column;
@@ -187,10 +243,10 @@ ul.menu a.is-active {
   width: 380px;
   padding-right: 50px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #block-events .events-wrapper img {
     padding-right: 10px;
-    width: 320px;
+    width: 32s0px;
   }
 }
 #block-events .events-wrapper h1 {
@@ -250,6 +306,11 @@ ul.menu a.is-active {
   text-decoration: none;
   padding: 10px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .be {
+    margin-left: 450px;
+  }
+}
 
 .wrp {
   height: 465px;
@@ -266,7 +327,7 @@ ul.menu a.is-active {
 .wrp button {
   padding: 15px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .wrp {
     height: 600px;
   }
@@ -280,6 +341,21 @@ ul.menu a.is-active {
   .wrp #inf {
     margin-top: 0px;
     margin-left: 25px;
+  }
+  .wrp button {
+    padding: 9px;
+    background-color: white;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .wrp img {
+    margin-left: 468px;
+    margin-top: 150px;
+    overflow: none;
+  }
+  .wrp #inf {
+    margin-top: -200px;
+    margin-left: 79px;
   }
   .wrp button {
     padding: 9px;
@@ -313,7 +389,7 @@ ul.menu a.is-active {
   padding-left: 130px;
   padding-top: 30px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .clearfix .e-wrapper {
     display: flex;
     flex-direction: column;
@@ -331,14 +407,14 @@ ul.menu a.is-active {
   color: grey;
   padding-right: 135px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .clearfix .e-wrapper p a {
     padding-left: 135px;
     padding-top: 0px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .be {
     margin-left: 110px;
   }
@@ -377,7 +453,7 @@ ul.menu a.is-active {
 #block-majorattractions p {
   color: #0074bd;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #block-majorattractions div {
     display: inline-block;
     padding-left: 0px;
@@ -397,7 +473,7 @@ ul.menu a.is-active {
   color: white;
   text-decoration: none;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .field--label-hidden #us {
     margin-top: -150px;
     color: white;
@@ -434,7 +510,7 @@ ul.menu a.is-active {
   width: 90px;
   text-align: center;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #session-wrap #sep {
     text-align: center;
     padding: 20px 50px 20px 50px;
@@ -460,7 +536,7 @@ ul.menu a.is-active {
   height: 190px;
   padding-top: 40px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #selcom #sur {
     text-align: center;
     padding: 20px 50px 20px 50px;
@@ -479,7 +555,7 @@ ul.menu a.is-active {
 #wri p {
   margin-right: 58px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #wri {
     display: flex;
     flex-direction: column;
@@ -499,7 +575,7 @@ ul.menu a.is-active {
 .punec {
   padding: 10px 130px 10px 130px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .punec {
     padding: 10px 10px 10px 10px;
   }
@@ -511,7 +587,7 @@ ul.menu a.is-active {
   display: flex;
   justify-content: center;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #whats {
     display: flex;
     flex-direction: column;
@@ -527,7 +603,7 @@ ul.menu a.is-active {
   height: 60px;
   margin-left: 120px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .shld p {
     margin-top: 15px;
     margin-left: 13px;
@@ -540,7 +616,7 @@ ul.menu a.is-active {
   font-size: 15px;
   margin-left: -100px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .shld h1 {
     margin-top: -130px;
     margin-left: 13px;
@@ -556,7 +632,7 @@ ul.menu a.is-active {
   height: 60px;
   margin-left: -50px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .shld1 p {
     margin-left: 13px;
     padding: 25px 0px 25px 13px;
@@ -566,7 +642,7 @@ ul.menu a.is-active {
   padding: 50px 70px 10px 0px;
   font-size: 15px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .shld1 h1 {
     margin-left: 13px;
     padding: 25px 0px 25px 13px;
@@ -583,9 +659,14 @@ ul.menu a.is-active {
   background-color: #e6103e;
   color: white;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #drp #hrd {
     margin-left: 90px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #drp #hrd {
+    margin-left: 420px;
   }
 }
 #drp #dcp15 {
@@ -600,7 +681,7 @@ ul.menu a.is-active {
   text-align: center;
   padding: 25px 320px 30px 320px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #drp #dcp15 p {
     padding: 10px 10px 10px 10px;
   }
@@ -610,7 +691,7 @@ ul.menu a.is-active {
   justify-content: space-around;
   margin-left: 115px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #drp #dcp16 {
     display: flex;
     flex-direction: column;
@@ -645,8 +726,13 @@ ul.menu a.is-active {
   background-color: #e6103e;
   color: white;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   #drp #dcp17 #hrd1 {
     margin-left: 80px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #drp #dcp17 #hrd1 {
+    margin-left: 420px;
   }
 }
