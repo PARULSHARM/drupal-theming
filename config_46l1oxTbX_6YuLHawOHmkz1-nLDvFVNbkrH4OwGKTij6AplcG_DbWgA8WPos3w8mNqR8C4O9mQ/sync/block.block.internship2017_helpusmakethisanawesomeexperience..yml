@@ -1,0 +1,31 @@
+uuid: 5272852d-a6ad-4dd8-a796-e3e5ac475b3b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:sponsors:e9180b22-6ebf-490b-9930-475a73dcf394'
+  module:
+    - block_content
+    - system
+  theme:
+    - internship2017
+id: internship2017_helpusmakethisanawesomeexperience.
+theme: internship2017
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:e9180b22-6ebf-490b-9930-475a73dcf394'
+settings:
+  id: 'block_content:e9180b22-6ebf-490b-9930-475a73dcf394'
+  label: 'Help us make this an awesome experience.'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /Sponsors
+    negate: false
+    context_mapping: {  }

@@ -1,14 +1,13 @@
 .header li a {
   text-decoration: none;
   color: black;
-  margin-left: 143px;
+  margin-left: 95px;
   padding-top: 150px;
   padding-bottom: 40px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
-  .header li {
-    margin-left: -50px;
-  }
+
+.logo-image {
+  margin-bottom: -23px;
 }
 
 .header li {
@@ -37,41 +36,46 @@
   padding-bottom: 12px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .menu-item {
+    width: 100%;
+  }
+
+  .logo-image {
+    display: none;
+  }
+}
 #footer {
   background-color: black;
+  margin-top: auto;
   height: 80px;
-  width: 100%;
-}
-#footer #logo-footer {
-  margin-top: -67px;
+  width: auto;
 }
 #footer #logo-footer img {
-  margin-top: -17px;
-  margin-left: 190px;
+  margin-top: -28px;
+  margin-left: 150px;
 }
 #footer #logo-footer h3 {
   color: white;
   margin-top: -55px;
-  margin-left: -440px;
   font-size: 15px;
+  margin-left: -505px;
 }
 #footer #icon-footer h3 {
-  margin-top: -30px;
+  margin-top: -32px;
   color: white;
-  margin-left: 800px;
+  margin-left: 500px;
   font-size: 15px;
 }
-#footer #icon-footer li {
-  list-style-type: none;
-}
-#footer #icon-footer i {
+#footer #icon-footer #uid {
+  display: flex;
   color: white;
   list-style-type: none;
-  margin-left: 600px;
+  margin-left: 960px;
+  margin-top: -30px;
 }
-#footer #icon-footer #uid {
-  margin-left: 550px;
-  margin-top: -35px;
+#footer #icon-footer #uid li i {
+  padding-left: 10px;
 }
 
 .tickets {
@@ -79,7 +83,7 @@
   width: 70%;
   margin: 0 auto;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .tickets {
     display: flex;
     flex-direction: column;
@@ -203,7 +207,7 @@
   margin-left: 182px;
   margin-top: 60px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #keyp1 p {
     display: none;
   }
@@ -222,12 +226,19 @@
   justify-content: center;
   padding: 80px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #block-events .events-wrapper {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  #block-events .events-wrapper h1 {
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #0074bd;
+    overflow: hidden;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -243,10 +254,10 @@
   width: 380px;
   padding-right: 50px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #block-events .events-wrapper img {
     padding-right: 10px;
-    width: 32s0px;
+    width: 320px;
   }
 }
 #block-events .events-wrapper h1 {
@@ -254,10 +265,12 @@
   padding-top: 50px;
   font-size: 20px;
   color: #0074bd;
+  overflow: hidden;
 }
 #block-events .events-wrapper p {
   padding-top: 50px;
   color: grey;
+  padding-right: 30px;
 }
 
 #block-views-block-our-sponsors-block-1 h2 {
@@ -327,7 +340,7 @@
 .wrp button {
   padding: 15px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .wrp {
     height: 600px;
   }
@@ -363,7 +376,7 @@
   }
 }
 
-.views-element-container h2 {
+s.views-element-container h2 {
   display: flex;
   justify-content: center;
   color: #0074bd;
@@ -389,7 +402,7 @@
   padding-left: 130px;
   padding-top: 30px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .clearfix .e-wrapper {
     display: flex;
     flex-direction: column;
@@ -407,14 +420,14 @@
   color: grey;
   padding-right: 135px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .clearfix .e-wrapper p a {
     padding-left: 135px;
     padding-top: 0px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .be {
     margin-left: 110px;
   }
@@ -453,7 +466,7 @@
 #block-majorattractions p {
   color: #0074bd;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #block-majorattractions div {
     display: inline-block;
     padding-left: 0px;
@@ -473,7 +486,7 @@
   color: white;
   text-decoration: none;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .field--label-hidden #us {
     margin-top: -150px;
     color: white;
@@ -510,7 +523,7 @@
   width: 90px;
   text-align: center;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #session-wrap #sep {
     text-align: center;
     padding: 20px 50px 20px 50px;
@@ -536,7 +549,7 @@
   height: 190px;
   padding-top: 40px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #selcom #sur {
     text-align: center;
     padding: 20px 50px 20px 50px;
@@ -555,7 +568,7 @@
 #wri p {
   margin-right: 58px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #wri {
     display: flex;
     flex-direction: column;
@@ -575,7 +588,7 @@
 .punec {
   padding: 10px 130px 10px 130px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .punec {
     padding: 10px 10px 10px 10px;
   }
@@ -587,7 +600,7 @@
   display: flex;
   justify-content: center;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #whats {
     display: flex;
     flex-direction: column;
@@ -603,7 +616,7 @@
   height: 60px;
   margin-left: 120px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .shld p {
     margin-top: 15px;
     margin-left: 13px;
@@ -614,9 +627,9 @@
   padding: 50px 70px 10px 150px;
   font-size: 15px;
   font-size: 15px;
-  margin-left: -100px;
+  margin-left: 8px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .shld h1 {
     margin-top: -130px;
     margin-left: 13px;
@@ -632,7 +645,7 @@
   height: 60px;
   margin-left: -50px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .shld1 p {
     margin-left: 13px;
     padding: 25px 0px 25px 13px;
@@ -641,8 +654,9 @@
 .shld1 h1 {
   padding: 50px 70px 10px 0px;
   font-size: 15px;
+  margin-left: 81px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .shld1 h1 {
     margin-left: 13px;
     padding: 25px 0px 25px 13px;
@@ -659,7 +673,7 @@
   background-color: #e6103e;
   color: white;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #drp #hrd {
     margin-left: 90px;
   }
@@ -681,7 +695,7 @@
   text-align: center;
   padding: 25px 320px 30px 320px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #drp #dcp15 p {
     padding: 10px 10px 10px 10px;
   }
@@ -691,7 +705,7 @@
   justify-content: space-around;
   margin-left: 115px;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #drp #dcp16 {
     display: flex;
     flex-direction: column;
@@ -726,7 +740,7 @@
   background-color: #e6103e;
   color: white;
 }
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   #drp #dcp17 #hrd1 {
     margin-left: 80px;
   }

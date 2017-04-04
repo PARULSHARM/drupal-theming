@@ -1,0 +1,4 @@
+<?php
+function internship2017_preprocess_menu__main(&$variables) {
+$variables['logopath'] = '/' . drupal_get_path('theme','internship2017') . '/logo.png';
+}

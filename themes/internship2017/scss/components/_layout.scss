@@ -1,5 +1,5 @@
 $mobile : screen;
-$tablet : min-width 375px;
+$tablet : min-width 768px;
 $desktop : min-width 1024px;
 $widedesktop : min-width 1400px;
 @include breakpoint($mobile){
