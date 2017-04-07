@@ -1,0 +1,31 @@
+uuid: 3a0615db-ae02-4161-8133-25fbe4ca8e86
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4c51a54f-9c98-4d08-9e38-24587f969bf2'
+  module:
+    - block_content
+    - system
+  theme:
+    - internship2017
+id: punedrupal
+theme: internship2017
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:4c51a54f-9c98-4d08-9e38-24587f969bf2'
+settings:
+  id: 'block_content:4c51a54f-9c98-4d08-9e38-24587f969bf2'
+  label: 'pune drupal '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }
